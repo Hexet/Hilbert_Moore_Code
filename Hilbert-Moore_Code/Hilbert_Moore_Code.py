@@ -2,10 +2,8 @@ from cipher import Cipher
 import os
 
 f = open('initial_sequence.txt')
-#f = open('ts.txt')
 initial_s = f.readline()
 f.close()
-#f = open('ta.txt')
 f = open('alphabet.txt')
 line = f.readline()
 alphabet = line.split(',')
